@@ -6,7 +6,7 @@ const Basic = () => {
       <h1>Yash Terekar</h1>
       <h2>MCA</h2>
       <h2>
-        Zeal Institute of Buisness Addminstration and Computer Application
+        Zeal Institute of Business Administration and Computer Application
       </h2>
       <h2>I am learning React.</h2>
     </div>
