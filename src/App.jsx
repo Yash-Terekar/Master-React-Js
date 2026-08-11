@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Page from "./fundamentals/components/practice/03-component-composition/Page";
+import Users from "./fundamentals/components/practice/04-reusable-components/Users";
 
 const App = () => {
   return (
     <div>
-      <Page />
+      <Users />
     </div>
   );
 };
