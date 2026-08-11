@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Basic from "./fundamentals/jsx/practice/01-basic-jsx/Basic";
+import UserInfo from "./fundamentals/jsx/practice/02-javascript-in-jsx/UserInfo";
 
 const App = () => {
   return (
     <div>
-      <Basic />
+      <UserInfo />
     </div>
   );
 };
