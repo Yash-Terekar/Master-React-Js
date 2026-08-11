@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import ProfileCard from "./fundamentals/jsx/challenges/01-profile-card/ProfileCard";
-import ProductCard from "./fundamentals/jsx/challenges/02-product-card/ProductCard";
+import Greeting from "./fundamentals/components/practice/01-basic-component/Greeting";
 
 const App = () => {
   return (
     <div>
-      <ProfileCard />
-      <ProductCard />
+      <Greeting />
+      <Greeting />
     </div>
   );
 };
