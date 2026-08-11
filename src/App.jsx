@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Users from "./fundamentals/components/practice/04-reusable-components/Users";
+import ProfileLayout from "./fundamentals/components/challenges/01-profile-layout/ProfileLayout";
 
 const App = () => {
   return (
     <div>
-      <Users />
+      <ProfileLayout />
     </div>
   );
 };
