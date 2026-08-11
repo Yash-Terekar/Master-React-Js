@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import ProfileLayout from "./fundamentals/components/challenges/01-profile-layout/ProfileLayout";
+import ProductPage from "./fundamentals/components/challenges/02-product-layout/ProductPage";
 
 const App = () => {
   return (
     <div>
-      <ProfileLayout />
+      <ProductPage />
     </div>
   );
 };
