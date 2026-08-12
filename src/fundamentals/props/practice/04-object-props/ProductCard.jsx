@@ -1,4 +1,4 @@
-const productCard = ({ product }) => {
+const ProductCArd = ({ product }) => {
   return (
     <div>
       <h1>Product Name: {product.name}</h1>
@@ -7,4 +7,4 @@ const productCard = ({ product }) => {
     </div>
   );
 };
-export default productCard;
+export default ProductCArd;
