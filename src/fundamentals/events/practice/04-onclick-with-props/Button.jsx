@@ -1,4 +1,11 @@
-const Button = () => {
-  return <div>Button</div>;
+const Button = ({ text }) => {
+  const handleEvent = () => {
+    console.log(`${text} button clicked`);
+  };
+  return (
+    <div>
+      <button onClick={handleEvent}>{text}</button>
+    </div>
+  );
 };
 export default Button;
