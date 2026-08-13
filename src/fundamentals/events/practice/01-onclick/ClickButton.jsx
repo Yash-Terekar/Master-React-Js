@@ -1,10 +1,10 @@
 const ClickButton = () => {
   const handleClick = () => {
-    console.log("Button Click");
+    console.log("Button was clicked!");
   };
   return (
     <div>
-      <button onClick={handleClick}>Cleck me</button>
+      <button onClick={handleClick}>Click me</button>
     </div>
   );
 };
