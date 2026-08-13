@@ -1,4 +1,11 @@
 const EventInfo = () => {
-  return <div>EventInfo</div>;
+  const handleEvent = (event) => {
+    console.log(event);
+  };
+  return (
+    <div>
+      <button onClick={handleEvent}>Handle Event Button</button>
+    </div>
+  );
 };
 export default EventInfo;
