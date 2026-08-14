@@ -4,7 +4,7 @@ const Keyboard = () => {
   };
   return (
     <div>
-      <button onKeyDown={handleEvent}>Click me!</button>
+      <input onKeyDown={handleEvent} />
     </div>
   );
 };
