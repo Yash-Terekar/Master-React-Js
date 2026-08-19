@@ -15,8 +15,8 @@ const Counter = () => {
       <h1>Counter</h1>
       <p>-----------------------------------------------------</p>
       <h1>{count}</h1>
-      <button onClick={increase}>Increase</button>
-      <button onClick={decrease}>Decrease</button>
+      <button onClick={increase}>Increase Count</button>
+      <button onClick={decrease}>Decrease Count</button>
       <p>-----------------------------------------------------</p>
     </div>
   );
