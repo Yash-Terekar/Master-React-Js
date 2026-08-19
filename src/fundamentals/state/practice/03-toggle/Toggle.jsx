@@ -13,7 +13,7 @@ const Toggle = () => {
 
   return (
     <div>
-      <h1>Status{isOn ? "ON" : "OFF"}</h1>
+      <h1>Status {isOn ? "ON" : "OFF"}</h1>
       <button onClick={isOn ? turnOff : turnOn}>
         Turn {isOn ? "Off" : "On"}
       </button>
