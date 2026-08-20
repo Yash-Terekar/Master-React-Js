@@ -5,10 +5,10 @@ const UserProfile = () => {
   const [age, setAge] = useState(26);
 
   const changeName = () => {
-    setName("Yash Terekar");
+    setName("Yash Manoj Terekar");
   };
   const changeAge = () => {
-    setAge(23);
+    setAge(age + 1);
   };
   return (
     <div>
