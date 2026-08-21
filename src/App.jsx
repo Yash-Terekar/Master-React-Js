@@ -2,6 +2,8 @@ import Message from "./fundamentals/state/practice/01-basic-state/Message";
 import Counter from "./fundamentals/state/practice/02-counter/Counter.jsx";
 import Toggle from "./fundamentals/state/practice/03-toggle/Toggle.jsx";
 import NameInput from "./fundamentals/state/practice/04-input-state/NameInput.jsx";
+import UserProfile from "./fundamentals/state/practice/05-multiple-state/UserProfile.jsx";
+import Skills from "./fundamentals/state/practice/06-state-with-array/Skills.jsx";
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       <Counter />
       <Toggle />
       <NameInput />
+      <UserProfile />
+      <Skills />
     </div>
   );
 };
