@@ -5,7 +5,7 @@ const Skills = () => {
 
   const [skill, setSkill] = useState(skills);
   const addReact = () => {
-    setSkill("React");
+    setSkill([...skill, "React"]);
   };
   return (
     <div>
