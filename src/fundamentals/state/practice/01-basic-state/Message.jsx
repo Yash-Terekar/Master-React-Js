@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 const Message = () => {
-  const [msg, setMsg] = useState("Hello React!");
-  const changeMsg = () => {
-    setMsg("Welcome to React State!!!");
+  const [greet, setGreet] = useState("Hello React!");
+  const changeGreeet = () => {
+    setGreet("Welcome to React State!");
   };
   return (
-    <div>
-      <h1>{msg}</h1>
-      <button onClick={changeMsg}>Change Message</button>
-    </div>
+    <>
+      <h1>{greet}</h1>
+      <button onClick={changeGreeet}>Change message</button>
+    </>
   );
 };
 export default Message;
