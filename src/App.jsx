@@ -14,6 +14,7 @@ const App = () => {
       <NameInput />
       <UserProfile />
       <Skills />
+      <Counter />
     </div>
   );
 };
