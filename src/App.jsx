@@ -1,3 +1,4 @@
+import CounterApp from "./fundamentals/state/challenges/01-counter-app/CounterApp.jsx";
 import Message from "./fundamentals/state/practice/01-basic-state/Message";
 import Counter from "./fundamentals/state/practice/02-counter/Counter.jsx";
 import Toggle from "./fundamentals/state/practice/03-toggle/Toggle.jsx";
@@ -8,13 +9,14 @@ import Skills from "./fundamentals/state/practice/06-state-with-array/Skills.jsx
 const App = () => {
   return (
     <div>
-      <Message />
+      {/* <Message />
       <Counter />
       <Toggle />
       <NameInput />
       <UserProfile />
       <Skills />
-      <Counter />
+      <Counter /> */}
+      <CounterApp />
     </div>
   );
 };
