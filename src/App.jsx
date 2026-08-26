@@ -1,4 +1,6 @@
 import CounterApp from "./fundamentals/state/challenges/01-counter-app/CounterApp.jsx";
+import ProfileToggle from "./fundamentals/state/challenges/02-profile-toggle/ProfileToggle.jsx";
+import Shop from "./fundamentals/state/challenges/03-shopping-cart/Shop.jsx";
 import Message from "./fundamentals/state/practice/01-basic-state/Message";
 import Counter from "./fundamentals/state/practice/02-counter/Counter.jsx";
 import Toggle from "./fundamentals/state/practice/03-toggle/Toggle.jsx";
@@ -16,7 +18,9 @@ const App = () => {
       <UserProfile />
       <Skills />
       <Counter /> */}
-      <CounterApp />
+      {/* <CounterApp /> */}
+      {/* <ProfileToggle /> */}
+      <Shop />
     </div>
   );
 };
