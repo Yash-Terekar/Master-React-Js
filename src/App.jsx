@@ -19,7 +19,7 @@ const App = () => {
       <Skills />
       <Counter /> */}
       {/* <CounterApp /> */}
-      {/* <ProfileToggle /> */}
+      <ProfileToggle />
       <Shop />
     </div>
   );
