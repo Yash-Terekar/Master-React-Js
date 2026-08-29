@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const ProfileToggle = () => {
   const skills = ["JavaScript", "HTML", "CSS", "React"];
-  const [showSkill, setShowSkill] = useState([]);
+  const [showSkill, setShowSkill] = useState(skills);
   const showMySkills = () => {
     setShowSkill(skills);
   };
@@ -19,7 +19,9 @@ const ProfileToggle = () => {
           <li>{skill}</li>
         ))}
       </ul>
-      <button onClick={showMySkills}>Show Skills</button>
+      <button onClick={showSkill ? showMySkills : hideMySkill}>
+        {showMySkills ? "Show Skills" : "Hide Skills"}
+      </button>
     </div>
   );
 };

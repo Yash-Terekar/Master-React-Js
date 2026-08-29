@@ -18,8 +18,8 @@ const App = () => {
       <UserProfile />
       <Skills />
       <Counter /> */}
-      <CounterApp />
-      {/* <ProfileToggle /> */}
+      {/* <CounterApp /> */}
+      <ProfileToggle />
       <Shop />
     </div>
   );
