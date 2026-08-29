@@ -13,13 +13,13 @@ const CounterApp = () => {
   };
   return (
     <div>
-      <p>==============================================</p>
+      <p>=====================================</p>
       <h1>Counter</h1>
       <h1>{count}</h1>
       <button onClick={decrement}>-</button>{" "}
       <button onClick={reset}>Reset</button>{" "}
       <button onClick={increment}>+</button>
-      <p>==============================================</p>
+      <p>=====================================</p>
     </div>
   );
 };
