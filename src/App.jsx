@@ -1,3 +1,4 @@
+import CounterMessage from "./fundamentals/state-patterns/practice/01-state-derived-ui/CounterMessage.jsx";
 import CounterApp from "./fundamentals/state/challenges/01-counter-app/CounterApp.jsx";
 import ProfileToggle from "./fundamentals/state/challenges/02-profile-toggle/ProfileToggle.jsx";
 import Shop from "./fundamentals/state/challenges/03-shopping-cart/Shop.jsx";
@@ -19,8 +20,9 @@ const App = () => {
       <Skills />
       <Counter /> */}
       {/* <CounterApp /> */}
-      <ProfileToggle />
-      <Shop />
+      {/* <ProfileToggle />
+      <Shop /> */}
+      <CounterMessage />
     </div>
   );
 };
