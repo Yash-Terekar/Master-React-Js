@@ -22,7 +22,6 @@ const App = () => {
       {/* <CounterApp /> */}
       {/* <ProfileToggle />
       <Shop /> */}
-      <CounterMessage />
     </div>
   );
 };
