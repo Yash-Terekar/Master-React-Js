@@ -19,9 +19,9 @@ const App = () => {
       <UserProfile />
       <Skills />
       <Counter /> */}
-      {/* <CounterApp /> */}
-      {/* <ProfileToggle />
-      <Shop /> */}
+      <CounterApp />
+      <ProfileToggle />
+      <Shop />
     </div>
   );
 };
