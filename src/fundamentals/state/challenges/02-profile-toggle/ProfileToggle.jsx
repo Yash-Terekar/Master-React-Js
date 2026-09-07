@@ -19,8 +19,8 @@ const ProfileToggle = () => {
           <li key={skill}>{skill}</li>
         ))}
       </ul>
-      <button onClick={showSkill ? showMySkills : hideMySkill}>
-        {showMySkills ? "Show Skills" : "Hide Skills"}
+      <button onClick={showSkill.length === 0 ? showMySkills : hideMySkill}>
+        {showSkill.length === 0 ? "Show Skills" : "Hide Skills"}
       </button>
     </div>
   );
