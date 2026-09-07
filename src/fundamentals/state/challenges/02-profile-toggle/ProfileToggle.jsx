@@ -16,7 +16,7 @@ const ProfileToggle = () => {
       <h2>Skills</h2>
       <ul>
         {showSkill.map((skill) => (
-          <li>{skill}</li>
+          <li key={skill}>{skill}</li>
         ))}
       </ul>
       <button onClick={showSkill ? showMySkills : hideMySkill}>
