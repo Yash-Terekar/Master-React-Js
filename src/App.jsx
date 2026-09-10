@@ -21,7 +21,8 @@ const App = () => {
       <Counter /> */}
       {/* <CounterApp />/. */}
       {/* <Shop /> */}
-      <CounterMessage />
+      {/* <CounterMessage />
+       */}
     </div>
   );
 };
