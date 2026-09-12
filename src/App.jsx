@@ -12,15 +12,6 @@ import Skills from "./fundamentals/state/practice/06-state-with-array/Skills.jsx
 const App = () => {
   return (
     <div>
-      {/* <Message />
-      <Counter />
-      <Toggle />
-      <NameInput />
-      <UserProfile />
-      <Skills />
-      <Counter /> */}
-      {/* <CounterApp />/. */}
-      {/* <Shop /> */}
       {/* <CounterMessage />
        */}
     </div>
