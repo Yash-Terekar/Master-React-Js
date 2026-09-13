@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 const Skills = () => {
-  return <div>Skills</div>;
+  const [count, setCount] = useState(0);
+  return <div>{count}</div>;
 };
 export default Skills;
