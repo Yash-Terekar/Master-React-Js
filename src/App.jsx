@@ -14,6 +14,7 @@ const App = () => {
     <div>
       {/* <CounterMessage />
        */}
+      <Skills />
     </div>
   );
 };
