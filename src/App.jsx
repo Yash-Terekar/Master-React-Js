@@ -14,7 +14,7 @@ const App = () => {
     <div>
       {/* <CounterMessage />
        */}
-      <Skills />
+      {/* <Skills /> */}
     </div>
   );
 };
