@@ -8,7 +8,7 @@ const Message = () => {
   return (
     <div>
       <h1>{message}</h1>
-      <button onClick={changeMSG}>Change Msg</button>
+      <button onClick={changeMSG}>Change Message</button>
     </div>
   );
 };
