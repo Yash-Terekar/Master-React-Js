@@ -1,21 +1,20 @@
 import { useState } from "react";
 
 const Toggle = () => {
-  const [isOn, setIsOn] = useState(false);
+  const [status, setStatus] = useState(false);
 
-  const turnOn = () => {
-    setIsOn(true);
+  const setOn = () => {
+    setStatus(true);
   };
-
-  const turnOff = () => {
-    setIsOn(false);
+  const setOff = () => {
+    setStatus(false);
   };
 
   return (
     <div>
-      <h1>Status {isOn ? "ON" : "OFF"}</h1>
-      <button onClick={isOn ? turnOff : turnOn}>
-        Turn {isOn ? "Off" : "On"}
+      <h1>Status : {status ? "Off" : "On"}</h1>
+      <button onClick={status ? setOff : setOn}>
+        Turn {status ? "On" : "Off"}
       </button>
     </div>
   );
