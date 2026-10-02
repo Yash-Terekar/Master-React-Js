@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const Toggle = () => {
   const [status, setStatus] = useState(false);
-
   const setOn = () => {
     setStatus(true);
   };
