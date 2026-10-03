@@ -1,16 +1,22 @@
 import { useState } from "react";
 
 const NameInput = () => {
-  const [input, setInput] = useState("");
-  const inputChange = () => {
-    setInput(document.getElementById("inputs").value);
+  const [history, setHistory] = useState([]);
+
+  const inputText = (e) => {
+    const newValue = e.target.value;
+    // Append the current input value to the history array
+    setHistory((prevHistory) => [...prevHistory, newValue]);
   };
+
   return (
     <div>
-      <label htmlFor="inputs">Enter Your Name: </label>
-      <input type="text" id="inputs" onChange={inputChange} />
-      <h1>Hello {input}</h1>
+      <input type="text" onChange={inputText} />
+      {history.map((text, index) => (
+        <h1 key={index}>Hello {text}</h1>
+      ))}
     </div>
   );
 };
+
 export default NameInput;
