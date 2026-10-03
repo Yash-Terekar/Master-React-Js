@@ -1,20 +1,16 @@
 import { useState } from "react";
 
 const Skills = () => {
-  const skills = ["JavaScript", "HTML", "CSS"];
-
+  const skills = ["JavaScript", "Dsa"];
   const [skill, setSkill] = useState(skills);
-  const addReact = () => {
-    setSkill([...skill, "React"]);
-  };
   return (
     <div>
       <ul>
-        {skill.map((skill) => (
-          <li key={skill}>{skill}</li>
+        {skill.map((skill, i) => (
+          <li key={i}>{skill}</li>
         ))}
       </ul>
-      <button onClick={addReact}>Add React</button>
+      <button onClick={() => setSkill([...skill, "React"])}>Add React</button>
     </div>
   );
 };
