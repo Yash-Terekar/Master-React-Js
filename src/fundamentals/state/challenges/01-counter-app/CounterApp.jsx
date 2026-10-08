@@ -2,21 +2,18 @@ import { useState } from "react";
 
 const CounterApp = () => {
   const [count, setCount] = useState(0);
-
-  const increase = () => setCount(count + 1);
   const decrease = () => setCount(count - 1);
+  const increase = () => setCount(count + 1);
   const reset = () => setCount(0);
   return (
     <div>
-      <p>========================================</p>
+      <p>===========================================================</p>
       <h1>Counter App</h1>
       <h1>{count}</h1>
-
       <button onClick={decrease}>-</button>
-      <button onClick={reset}>Reset</button>
+      <button onClick={reset}>reset</button>
       <button onClick={increase}>+</button>
-
-      <p>========================================</p>
+      <p>===========================================================</p>
     </div>
   );
 };
