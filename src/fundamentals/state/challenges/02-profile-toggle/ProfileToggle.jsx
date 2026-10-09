@@ -1,27 +1,36 @@
 import { useState } from "react";
 
 const ProfileToggle = () => {
-  const skills = ["JavaScript", "HTML", "CSS", "React"];
-  const [showSkill, setShowSkill] = useState(skills);
-  const showMySkills = () => {
-    setShowSkill(skills);
+  const name = "Yash Terekar";
+  const course = "MCA";
+  const skills = ["HTML", "JavsScript", "React", "MERN"];
+
+  const [showSkills, setShowSkills] = useState(false);
+
+  const hideSkills = () => {
+    setShowSkills(false);
   };
-  const hideMySkill = () => {
-    setShowSkill([]);
+  const showSkill = () => {
+    setShowSkills(true);
   };
   return (
     <div>
-      <h1>Yash Terekar</h1>
-      <h2>MCA Student</h2>
-      <h2>Skills</h2>
-      <ul>
-        {showSkill.map((skill) => (
-          <li key={skill}>{skill}</li>
-        ))}
-      </ul>
-      <button onClick={showSkill.length === 0 ? showMySkills : hideMySkill}>
-        {showSkill.length === 0 ? "Show Skills" : "Hide Skills"}
+      <p>=======================================</p>
+      <h1>{name}</h1>
+      <h2>{course}</h2>
+      {showSkills ? (
+        <ul>
+          Skills:
+          {skills.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+      ) : null}
+      <button onClick={showSkills ? hideSkills : showSkill}>
+        {showSkills ? "Hide " : "Show "}Skills
       </button>
+
+      <p>========================================</p>
     </div>
   );
 };
