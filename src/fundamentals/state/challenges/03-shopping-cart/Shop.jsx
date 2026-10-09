@@ -3,14 +3,26 @@ import Cart from "./Cart";
 import Product from "./Product";
 
 const Shop = () => {
-  const [count, setCount] = useState(0);
-  const clickedBtn = () => setCount(count + 1);
+  const [cartCount, setCartCount] = useState(0);
+  const handleAddToCart = () => setCartCount(cartCount + 1);
   return (
     <div>
-      <Cart count={count} />
-      <Product name="Asus Strix G16" price={160000} clicked={clickedBtn} />
-      <Product name="Iphone 17" price={80000} clicked={clickedBtn} />
-      <Product name="Mouse" price={2600} clicked={clickedBtn} />
+      <Cart count={cartCount} />
+      <Product
+        name="Asus Rog Strix G16"
+        price={210000}
+        addToCart={handleAddToCart}
+      />
+      <Product
+        name="Iphone 18 Pro"
+        price={160000}
+        addToCart={handleAddToCart}
+      />
+      <Product
+        name="Samsung Monitor 240hz"
+        price={68000}
+        addToCart={handleAddToCart}
+      />
     </div>
   );
 };
