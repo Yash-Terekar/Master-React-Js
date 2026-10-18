@@ -1,18 +1,12 @@
-import Message from "./fundamentals/state/practice/01-basic-state/Message";
-import Counter from "./fundamentals/state/practice/02-counter/Counter";
-import Toggle from "./fundamentals/state/practice/03-toggle/Toggle";
-import NameInput from "./fundamentals/state/practice/04-input-state/NameInput";
-import UserProfile from "./fundamentals/state/practice/05-multiple-state/UserProfile";
-import Skills from "./fundamentals/state/practice/06-state-with-array/Skills";
+import CounterMessage from "./fundamentals/state-patterns/practice/01-state-derived-ui/CounterMessage";
+import UserProfile from "./fundamentals/state-patterns/practice/02-state-object/UserProfile";
+import Skills from "./fundamentals/state-patterns/practice/03-state-array/Skills";
 
 const App = () => {
   return (
     <div>
-      {/* <Message />
-      <Counter />
-      <Toggle />
-      <NameInput />
-      <UserProfile /> */}
+      {/* <CounterMessage /> */}
+      {/* <UserProfile /> */}
       <Skills />
     </div>
   );
