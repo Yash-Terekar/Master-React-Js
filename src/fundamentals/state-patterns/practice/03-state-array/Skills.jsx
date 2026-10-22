@@ -6,7 +6,7 @@ const Skills = () => {
   const [inputValue, setInputValue] = useState("");
 
   const addSkill = () => {
-    if (inputValue.trim === "") return;
+    if (inputValue.trim() === "") return;
     setSkill([...skill, inputValue]);
     setInputValue("");
   };
