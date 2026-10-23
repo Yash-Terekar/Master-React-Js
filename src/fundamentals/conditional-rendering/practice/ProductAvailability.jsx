@@ -13,11 +13,7 @@ const ProductAvailability = () => {
       <h1>Asus Rog Strix G16</h1>
       <h2>240000</h2>
       <h2>{inStock ? "In Stock" : "Out of Stock"}</h2>
-      {inStock ? (
-        <button>Add to Cart</button>
-      ) : (
-        <button disabled>Add to Cart</button>
-      )}
+      <button disabled={!inStock}>Add to Cart</button>
     </div>
   );
 };
