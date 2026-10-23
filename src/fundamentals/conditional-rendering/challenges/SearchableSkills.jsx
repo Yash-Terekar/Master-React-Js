@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const SearchableSkills = () => {
   const skills = ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"];
+
   const [inputValue, setInputValue] = useState("");
 
   const searchItem = inputValue.toLowerCase();
