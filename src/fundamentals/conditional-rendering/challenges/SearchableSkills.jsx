@@ -7,7 +7,7 @@ const SearchableSkills = () => {
 
   const searchItem = inputValue.toLowerCase();
 
-  const filterdSkill = skills.filter((skill) =>
+  const filteredSkills = skills.filter((skill) =>
     skill.toLowerCase().includes(searchItem),
   );
 
@@ -27,11 +27,11 @@ const SearchableSkills = () => {
       <button onClick={handleClear}> Clear Search Input</button>
 
       <ul>
-        {filterdSkill.map((skill) => (
+        {filteredSkills.map((skill) => (
           <li key={skill}>{skill}</li>
         ))}
       </ul>
-      {filterdSkill.length <= 0 && <p>No Skill Found</p>}
+      {filteredSkills.length <= 0 && <p>No Skill Found</p>}
     </div>
   );
 };
