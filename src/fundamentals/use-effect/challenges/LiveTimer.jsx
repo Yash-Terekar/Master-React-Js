@@ -19,9 +19,11 @@ const LiveTimer = () => {
       <button disabled={start} onClick={() => setStart(true)}>
         Start
       </button>
+      <br />
       <button disabled={!start} onClick={() => setStart(false)}>
         Stop
       </button>
+      <br />
       <button onClick={() => setCount(0)}>Reset</button>
       <h1>Elapsed Time: {count}</h1>
     </div>
